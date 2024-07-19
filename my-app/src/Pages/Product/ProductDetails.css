@@ -1,0 +1,102 @@
+*{margin: 0%;
+padding: 0;
+font-family: sans-serif;
+box-sizing: border-box;
+}
+.pdpage{position: relative;}
+.product{
+    padding: 30px 40px;
+    width: 100%;
+}
+.page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;margin-top: 20px;
+    max-width: 100%;
+}
+.main{
+font-size: 42px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: black;
+font-weight: 300;
+
+  }
+.filter{
+position: fixed;
+top:42%;
+left: 1%;
+padding:20px 30px;
+letter-spacing: 2px;
+    
+}
+.disk{list-style: none;
+    margin-top: 20px;
+    color:rgb(8, 65, 221);
+    cursor: pointer;
+}.disk:hover{color:rgb(123, 0, 195) ;
+transition: scale(0.5s);}
+.export{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.import{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin-left:2px;
+    margin-top:26px;
+}
+.onpoint{
+    display: flex;
+    flex-direction: column;
+    background-color: 1px solid black;
+    justify-content:space-between;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin-top: 8%;
+   
+}
+.onpoint:hover{
+    box-shadow: rgba(30, 30, 46, 0.56)0px 5px 8px;
+    border: 2px solid peru;
+border-radius: 12px;
+}
+
+.pimage{
+    margin-top: 2%;
+        width: 150px;
+        height: 150px;
+     overflow: hidden;
+ }
+ .import{
+    position: relative;
+ }
+.new{z-index: 1;
+    position: absolute;
+   border: none;
+ right: 1%;
+ top: 10%;
+   
+}
+ .lin{ display: flex;
+    flex-direction: column;
+    list-style: none;
+    color:black; 
+    background-color:rgb(243, 235, 235); 
+    border: 2px solid white;
+    border-radius: 12px;
+    
+    
+ }
+ .lin:hover{
+    transition:0.5s ;
+  box-shadow: rgba(30, 30, 46, 0.56)0px 4px 8px;
+  color: beige;
+  background-color:rgb(138, 79, 138); 
+  border: 2px solid white;
+  border-radius: 12px;
+  transform: scale(1.2);margin-bottom:5% ;
+ }

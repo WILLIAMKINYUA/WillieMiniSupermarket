@@ -1,0 +1,57 @@
+.context{
+   
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color:rgb(177, 220, 220); 
+}
+.group{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(177, 220, 220);display: flex;
+}
+.detail{
+     display: flex;
+     flex-direction: column;
+     margin-top: 12%;
+     margin-left: 12px;
+     text-align: center;
+  
+}
+.description{margin-top: 20%;
+    margin-left: 20%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    font-style: oblique;
+    justify-content: space-evenly;
+}
+.sale{list-style: none;
+    cursor: pointer;
+    background-color: white;
+    height:32px;
+    border-radius: 7px;
+   margin-left: 59%;
+     width: 5%;
+}
+.sale:hover{
+    outline: none;
+    cursor: pointer;
+    background-color:blue;
+    justify-content: center;
+    height:32px;
+    border-radius: 7px;
+
+}
+.image{
+    margin-top: 10%;
+    background-color: rgb(177, 220, 220) ;
+}
+.best{
+    width: 370px;
+    height: 440px;
+    overflow: hidden;
+    background-image: none;
+     margin-right: 10%;
+    
+}

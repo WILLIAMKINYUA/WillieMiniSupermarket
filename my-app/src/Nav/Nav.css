@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.cover{
+    background-color:black;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    outline: none;
+    padding: 0px 30px;
+    }
+.truck{
+    margin-right: 12px;
+    color: orange;
+    padding-left: 3%;
+    padding-top: 1%;
+}
+.heads{
+    color:white;
+    padding-left:5px ;
+    font-size: 15px;
+    font-weight: 100;
+}

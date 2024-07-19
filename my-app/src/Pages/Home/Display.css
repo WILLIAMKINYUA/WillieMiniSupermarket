@@ -1,0 +1,56 @@
+
+.context{
+   
+    width: 100%;
+    height: 100%;
+    display: flex;
+   
+}
+.group{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(177, 220, 220);display: flex;
+}
+.detail{
+     display: flex;
+     flex-direction: column;
+     margin-top: 12%;
+     margin-left: 12px;
+     text-align: center;
+  
+}
+.description{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 450;
+    font-size: 52px;
+    font-style: oblique;
+    justify-content: space-evenly;
+}
+.btncontent{font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    list-style: none;display: flex;
+flex-direction: column;
+background-color: white;
+padding: 5px 42px;
+cursor: pointer; 
+border-radius: 7px;justify-content: center;
+}
+.btncontent:hover{
+    outline: none;
+    cursor: pointer;
+    background-color:blue;
+    color: bisque;
+    
+
+}
+.image{
+    background-color: rgb(177, 220, 220) ;
+}
+.best{
+    width: 370px;
+    height: 440px;
+    overflow: hidden;
+    background-image: none;
+     margin-right: 10%;
+    
+}

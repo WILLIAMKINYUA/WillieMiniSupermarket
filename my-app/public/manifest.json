@@ -1,0 +1,50 @@
+{
+  "short_name": "React App",
+  "name": "Create React App Sample",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "E-commerce Logo.PNG",
+      "type": "image/png",
+      "sizes": "52x52"
+    },
+    {
+      "src": "homepage..laptop.PNG",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "LAPTOP1.PNG",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "OTHERS.PNG",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "PHONE1.PNG",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "watch2.PNG",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "E-commerce header.PNG",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

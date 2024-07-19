@@ -1,0 +1,40 @@
+.become{
+    display: flex;
+    flex-direction: column;
+}
+.be{
+    margin-left: 29%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-style: oblique;
+    margin-bottom: 2%;
+    text-decoration: underline;
+}
+.social{display: flex;
+  margin-left: 27%;
+}
+.platform{
+    margin-left: 4%;
+    justify-content: center;
+    align-items: center;
+   
+}.eber{
+    margin-top: 3%;
+ 
+}
+.eberf{
+    margin-top: 3%;
+    color: blue;
+}
+.eberi{
+    margin-top: 3%;
+    color:indianred ;
+}
+.eberw{
+    margin-top: 3%;
+    color: limegreen;
+}
+.mak{
+    list-style: none;text-decoration: none;
+    color:rgb(74, 74, 163);
+}
